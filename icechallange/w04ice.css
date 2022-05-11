@@ -1,0 +1,59 @@
+body {
+    background: #FDA7C9;
+}
+
+section{
+   margin: 0 auto;
+    width: 500px;
+}
+
+.center{
+    text-align: center;
+    color: white;
+}
+
+h5{
+    text-align: center;
+    color: white;
+}
+
+p{
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.hover{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+a.hover:hover{
+    
+}
+
+.img{
+    max-width: 150px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.thinner{
+    width: 500px;
+}
+
+.color{
+    color: black;
+}
+footer{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}

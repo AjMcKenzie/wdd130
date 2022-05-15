@@ -1,12 +1,58 @@
+/* page */
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
 
+body{
+    background-color: whitesmoke;
+}
+
+main section{
+    text-align: center;
+}
+
+/* nav  */
 nav a{
     text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: lightgoldenrodyellow;
+    color: black;   
+}
+
+/* book/join */
+
+.join{
+    background-color: #CD8F0D;
+    color: #000000;
+    text-decoration: none;
+}
+
+.join:hover{
+    background-color: yellow;
     color: black;
 }
+
+.book{
+    background-color: #010A5B;
+    color: white;
+    text-decoration: none;
+}
+.book:hover{
+    background-color: black;
+    color: #CD8F0D;
+}
+
+.button-box{
+    text-align: center;
+}
+
+/* hero */
 
 #hero-msg h1{
     text-align: center;
@@ -16,63 +62,14 @@ nav a{
     text-align: center;
 }
 
-.button-box{
-    text-align: center;
+#hero-img{
+    width: 100%;
 }
 
-main section{
-    text-align: center;
-}
-
-#background{
-    height: 725px;
-    background-color: #fff;
-}
-
-body{
-    background-color: #fff;
-}
-
-header{
-    background-color: #fff;
-}
-
-nav a:hover{
-    background-color: black;
-    color: black;
-    
-}
-
-h4{
-    color: black;
-}
-
-.home-title{
-    color: black;
-}
-
-.book{
-    background-color: #fff;
-    color: black;
-}
-
-.join{
-    background-color: #fff;
-    color: black;
-}
-
-.book:hover{
-    background-color: black;
-    color: black;
-}
-
-.join:hover{
-    background-color: black;
-    color: black;
-}
+/* msg */
 
 .msg{
-    background-color: #fff;
+    background-color: wheat;
 }
 
 .msg h2{
@@ -83,18 +80,54 @@ h4{
     color: black;
 }
 
+/* footer */
 footer{
-    background-color: #fff;
+    background-color: #131313;
 }
 
 footer h3{
-    color: black;
+    color: #D6AE45;
+}
+
+footer h3 a:hover{
+    text-decoration: underline;
 }
 
 footer a{
-    color: black;
+    color: #D6AE45;
+    text-decoration: none;
 }
 
 footer a:hover{
-    background-color: black;
+    color: black;
+    background-color: #CD8F0D;
+}
+
+/* misc. */
+
+#background{
+    height: 725px;
+    background-color: lightgray;
+}
+
+header{
+    background-color: #acacac;
+}
+
+.logo{
+    width: 80px;
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+.icon{
+    width: 80px;
+}
+
+.home-title{
+    color: #95002E;
+}
+
+h4{
+    color: black;
 }

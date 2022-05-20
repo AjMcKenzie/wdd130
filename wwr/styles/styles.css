@@ -1,4 +1,5 @@
 /* page */
+
 @import url('https://fonts.googleapis.com/css2?family=Karma:wght@300&family=Shadows+Into+Light&display=swap');
 
 #content{
@@ -23,8 +24,8 @@ main section img {
     box-sizing: border-box;
 }
 
-
 /* nav  */
+
 nav a{
     text-align: center;
     color: white;
@@ -151,9 +152,6 @@ header{
 
 .logo{
     width: 80px;
-    /*display: block;
-    margin-left: auto;
-    margin-right: auto; */
 }
 
 #logo_link{

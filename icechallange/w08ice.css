@@ -9,7 +9,6 @@ body{
     grid-column: 4; 
     justify-items: center;
     align-items: center;
-    /* border: 20px solid black; */
 }
 
 .logo{
@@ -31,10 +30,10 @@ body{
     height: 100%;
     background-color: #F0F0F1;
     grid-column: 2/3;
-    /* align-items: center;
-    text-align: center; */
-    justify-content: center;
-    align-content: center;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center;
+    align-content: center; */
 
    
 }

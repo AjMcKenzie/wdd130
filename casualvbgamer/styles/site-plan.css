@@ -50,6 +50,35 @@ Fonts are separated by a | */
   --nav-hover-background-color: #0620a2;
 }
 
+.sitePic{
+  max-width: 300px;
+}
+
+.hpImages{
+  max-width: 400px;
+}
+
+.gridPic{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#switch{
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 60px;
+}
+#ps5{
+  grid-column: 3;
+  grid-row: 1;
+  margin-top: 30px;
+}
+#xbox{
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 60px;
+}
+
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 

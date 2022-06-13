@@ -1,4 +1,72 @@
 body{
-    background-color: 1E1F1F;
+    background-color: #1E1F1F;
+    display: grid;
+    grid-template-columns: 1fr 300px 1fr;
+    grid-template-rows: 200px 300px 90px;
 }
+
+.info{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #FEFFFE;
+    align-items: center;
+    text-align: center;
+    line-height: 20px;
+}
+
+#title{
+    color: black;
+    font-family: 'Charis SIL', serif;
+}
+
+#weeks{
+    color: #486291;
+}
+
+#para{
+    font-weight: bold;
+    padding-left: 45px;
+    /* padding-right: 10px; */
+    color: #978C96;
+    text-align: center;
+    width: 70%;
+}
+
+
+#city{
+    grid-column: 2;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 2;
+    grid-row: 3;
+    overflow: hidden;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #3E5A8B;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+
+#smaller{
+    font-size: 12px;
+}
+.border{
+    border-right: .5px solid white;
+    border-left: .5px solid white;
+}
+
+
+
+
 

@@ -197,6 +197,15 @@ footer a{
 
 footer a:hover{
     color: #D8A21D;
+    text-decoration: none;
+}
+
+#spb a{
+    text-decoration: none;
+}
+
+#topb a{
+    text-decoration: none;
 }
 
 
@@ -225,7 +234,19 @@ footer a:hover{
     margin-right: 5px;
 }
 
+#btop a{
+    /* background-color: black; */
+    font-size: 25px;
+    color: #D8A21D;
+    text-decoration: none;
+    margin-right: 3px;
+    float: right;
 
+}
+
+#btop a:hover{
+    background-color: black;
+}
 
 p{
     text-align: justify;

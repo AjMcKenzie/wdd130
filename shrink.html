@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+  <title>Shrink Text</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  /* designing the text*/
+  div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    font-size: 2.5em;
+    color: rgb(4, 110, 4);
+  }
+  /*creating the shrink animation*/
+  span:nth-child(even){
+    overflow: hidden;
+    letter-spacing: 0;
+    transition:  1s;
+  }
+  
+  div:hover span:nth-child(even){
+    letter-spacing: -1em;
+  }
+ </style>
+  
+<body>
+  <div>
+    <span>G</span><span>EEKS</span>
+    <span>F</span><span>OR</span>
+    <span>G</span><span>EEKS</span>
+  </div>  
+</body>
+</html>

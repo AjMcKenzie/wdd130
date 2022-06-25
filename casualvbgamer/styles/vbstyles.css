@@ -40,8 +40,8 @@ hr{
 
 .cs{
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 1fr -1fr;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -62,17 +62,17 @@ section a{
     grid-column-start: 1;
     grid-column-end: 4;
     padding-left: -50%;
-    /* grid-column: 2/4; */
     grid-row: 1;
     font-size: 20px;
     color: gold;
     text-align: center;
+    border-bottom: solid black 2px;
 }
 
 #csborder{
     grid-column: 1/4;
     grid-row: 1/3;
-    height: 120px;
+    height: 90px;
     z-index: -1;
     border: 3px solid black;
     background-color: rgb(126, 125, 125);
@@ -80,24 +80,28 @@ section a{
 
 #psl{
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 1/3;
+    padding-top: 40px;
     font-size: 20px;
 }
 
 #xboxl{
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 1/3;
+    padding-top: 40px;
     font-size: 20px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
 }
 
 #nsl{
     grid-column: 3;
-    grid-row: 2;
+    grid-row: 1/3;
+    padding-top: 40px;
     font-size: 20px;
 }
 
 #nsl:hover, #xboxl:hover, #psl:hover{
-    background-color: black;
     color:#970a0c
 }
 

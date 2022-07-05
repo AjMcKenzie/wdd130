@@ -235,7 +235,6 @@ footer a:hover{
 }
 
 #btop a{
-    /* background-color: black; */
     font-size: 25px;
     color: #D8A21D;
     text-decoration: none;
@@ -244,8 +243,12 @@ footer a:hover{
 
 }
 
-#btop a:hover{
+/* #btop a:hover{
     background-color: black;
+} */
+
+.fa-solid:hover{
+    animation: fa-bounce 2s infinite linear;
 }
 
 p{

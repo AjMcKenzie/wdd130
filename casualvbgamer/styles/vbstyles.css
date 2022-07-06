@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans&family=Source+Code+Pro:wght@300&display=swap');
 
+/* body{
+    padding-right: 130px;
+    padding-left: 20px;
+} */
 
 header{
     background-color: black; 
@@ -243,11 +247,60 @@ footer a:hover{
 
 }
 
+.middle{
+    top: 300px;
+}
+
+#mySidenav a {
+    position: fixed;
+    right: -90px;
+    transition: 0.3s;
+    padding: 10px;
+    width: 90px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px 0 0 5px;
+    text-align: right;
+  }
+  
+  #mySidenav a:hover {
+    right: 0;
+  }
+  
+  #psls {
+    top: 100px;
+    background-color: rgba(33, 150, 243, .4);
+  }
+  
+#psls:hover{
+    background-color: rgb(33, 150, 243);
+}
+
+  #xboxls {
+    top: 140px;
+    background-color: rgba(4, 170, 109, .4);
+  }
+
+  #xboxls:hover{
+    background-color: rgb(4, 170, 109);
+}
+  
+  #nsls {
+    top: 180px;
+    background-color: rgba(244, 67, 54, .4);
+  }
+
+  #nsls:hover{
+    background-color: rgb(244, 67, 54);
+}
+
+
 /* #btop a:hover{
     background-color: black;
 } */
 
-.fa-solid:hover{
+.fa-angles-up:hover{
     animation: fa-bounce 2s infinite linear;
 }
 

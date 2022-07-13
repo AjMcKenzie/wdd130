@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans&family=Source+Code+Pro:wght@300&display=swap');
 
-/* body{
-    padding-right: 130px;
-    padding-left: 20px;
-} */
-
 header{
     background-color: black; 
     display: grid;
@@ -84,14 +79,14 @@ section a{
 #psl{
     grid-column: 1;
     grid-row: 1/3;
-    padding-top: 40px;
+    padding-top: 50px;
     font-size: 20px;
 }
 
 #xboxl{
     grid-column: 2;
     grid-row: 1/3;
-    padding-top: 40px;
+    padding-top: 50px;
     font-size: 20px;
     border-left: solid black 2px;
     border-right: solid black 2px;
@@ -100,7 +95,7 @@ section a{
 #nsl{
     grid-column: 3;
     grid-row: 1/3;
-    padding-top: 40px;
+    padding-top: 50px;
     font-size: 20px;
 }
 
@@ -108,6 +103,10 @@ section a{
     color:#970a0c
 }
 
+.centerIt{
+  padding-left: 100px;
+  padding-top: 20px;
+}
 
 .K2-pros-cons {
     font-family: "Raleway", sans-serif;
@@ -222,21 +221,7 @@ footer a:hover{
 .console{
   font-size: 30px;
   font-weight: bold;
-    /* text-decoration: underline; */
-}
-
-.consoleImg{
-    max-width: 100px;
-    border: 2px grey solid;
-    margin-left: 20px;
-    margin-bottom: -20px;
-}
-
-#nsImg{
-  max-width: 100px;
-  border: 2px grey solid;
-  margin-left: 70px;
-  margin-bottom: -20px;
+  text-align: center;
 }
 
 .gameImg{
@@ -246,6 +231,7 @@ footer a:hover{
     border: black solid 2px;
     margin-left: 5px;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .btop a{
@@ -254,7 +240,6 @@ footer a:hover{
     text-decoration: none;
     margin-right: 3px;
     float: right;
-
 }
 
 .middle{

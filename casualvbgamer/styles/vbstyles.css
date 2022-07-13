@@ -220,13 +220,23 @@ footer a:hover{
 }
 
 .console{
-    text-decoration: underline;
+  font-size: 30px;
+  font-weight: bold;
+    /* text-decoration: underline; */
 }
 
 .consoleImg{
-    max-width: 90px;
-    border: 2px black solid;
-    vertical-align: sub;
+    max-width: 100px;
+    border: 2px grey solid;
+    margin-left: 20px;
+    margin-bottom: -20px;
+}
+
+#nsImg{
+  max-width: 100px;
+  border: 2px grey solid;
+  margin-left: 70px;
+  margin-bottom: -20px;
 }
 
 .gameImg{
@@ -235,7 +245,7 @@ footer a:hover{
     max-height: 250px;
     border: black solid 2px;
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 20px;
 }
 
 .btop a{
@@ -308,6 +318,7 @@ p{
     text-align: justify;
     padding-right: 20px;
     font-family: 'Open Sans', sans-serif;
+    margin: 30px;
 }
 
 hr{

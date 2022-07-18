@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans&family=Source+Code+Pro:wght@300&display=swap');
 
 header{
@@ -52,7 +53,7 @@ hr{
     text-decoration: none;
 }
 
-section a{
+div a{
     color: gold;
 }
 
@@ -305,6 +306,6 @@ p{
 hr{
     height: 4px;
     color: black;
-    background-color: black;
+    background-color: #970a0c;
     width: 90%;
 }

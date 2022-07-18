@@ -40,7 +40,7 @@ hr{
 .cs{
     display: grid;
     grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 1fr -100px;
+    grid-template-rows: 1fr 10px;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -56,10 +56,9 @@ section a{
     color: gold;
 }
 
-#csp{
+#csp{ 
     grid-column-start: 1;
     grid-column-end: 4;
-    padding-left: -50%;
     grid-row: 1;
     font-size: 20px;
     color: gold;
@@ -289,11 +288,6 @@ footer a:hover{
   #nsls:hover{
     background-color: rgb(244, 67, 54);
 }
-
-
-/* #btop a:hover{
-    background-color: black;
-} */
 
 .fa-angles-up:hover{
     animation: fa-bounce 2s infinite linear;
